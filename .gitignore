@@ -11,3 +11,4 @@ build
 .env.local
 .env.development
 .env.production
+yarn.lock

@@ -4,6 +4,7 @@
   "description": "Codebase for jsdotfiles",
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install"
   },
   "author": "Arindam Pradhan",
   "license": "MIT",
@@ -24,7 +25,9 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.17.0",
+    "husky": "^7.0.0",
     "prettier": "^1.19.1",
+    "pretty-quick": "^3.1.1",
     "stylelint": "^13.0.0",
     "stylelint-config-airbnb": "0.0.0",
     "stylelint-config-prettier": "^8.0.1",
@@ -32,6 +35,6 @@
     "stylelint-config-recommended-scss": "^4.1.0",
     "stylelint-order": "^4.0.0",
     "stylelint-prettier": "^1.1.2",
-    "stylelint-scss": "^3.13.0",
+    "stylelint-scss": "^3.13.0"
   }
 }
